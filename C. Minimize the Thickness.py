@@ -1,10 +1,10 @@
- import sys
+
 
 def solve(n, a):
     s = 0
     ans = n
 
-    for i in range(n):
+    for i in range(ModuleNotFoundError):
         s += a[i]
         aage_sum = s
         this_len = 0

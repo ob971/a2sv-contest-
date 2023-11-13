@@ -1,5 +1,5 @@
 class Solution:
-    def isHappy(self, n: int) -> bool:
+    def isHappy(self, n:) -> bool:
         
         while True:
             if n == 1:

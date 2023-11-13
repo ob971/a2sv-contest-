@@ -1,5 +1,5 @@
 def biggest_alternating(nums):
-    nums.append(-nums[-1]) #last element is for transition
+    nums.append(-nums[-1]) #last element is fransition
 
     sub_nums =[]
     extreme_num = -float("inf")
@@ -9,7 +9,7 @@ def biggest_alternating(nums):
         to_negatives = in_positives and num < 0
         to_positives = (not in_positives )and num > 0
 
-        if to_negatives or to_positives:
+        if to_negative or to_positives:
             in_positives = not in_positives
             sub_nums.append(extreme_num)
             extreme_num = -float("inf")

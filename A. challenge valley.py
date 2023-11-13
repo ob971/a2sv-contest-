@@ -7,7 +7,7 @@ def solve():
         if a[i] <= q:
             len += 1
         else:
-            if len >= k:
+            if en >= k:
                 ans += (len - k + 1) * (len - k + 2) // 2
             len = 0
     if len >= k:

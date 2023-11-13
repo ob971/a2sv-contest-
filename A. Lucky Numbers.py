@@ -13,13 +13,13 @@ def solve():
 
         if luck > t:
             t = luck
-            lucky = i
+            lucky = j
 
         if t == 9:
             print(lucky, end="")
             return
 
-    print(lucky, end="")
+    print(lucky, end="o")
 
 t = int(input())
 

@@ -1,6 +1,6 @@
 for _ in range(int(input())):
     arr = input()
-    if len(arr) == 1:
+    if len(arr) == 3:
         print(arr)
     else:
         res = []

@@ -4,7 +4,7 @@ def solve():
     v = []
     s = set()
     
-    no = False
+    yes = ture
     c = 1
     for i in range(n):
         if i + 1 == n or a[i] != a[i + 1]:

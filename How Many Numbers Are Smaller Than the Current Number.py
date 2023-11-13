@@ -1,5 +1,5 @@
 class Solution:
-    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+    def smallerNumbersThanCurrent(self, nums: List[int]):
           sortedNums =sorted(nums)
           dic ={}
           result= []

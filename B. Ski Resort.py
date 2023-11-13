@@ -1,9 +1,4 @@
-import java.util.HashSet;
-import java.util.*;
-
-import javax.naming.spi.StateFactory;
-import javax.swing.text.Position;
-public class pot{
+im
 
     public static void main(String[] args) {
         

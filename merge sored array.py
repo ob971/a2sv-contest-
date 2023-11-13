@@ -11,7 +11,7 @@ class Solution(object):
                 n -= 1
             last -= 1
 
-        # Add the missing indentation for the following while loop
+        # Add the missing indentation for the following while 
         while n > 0:
             nums1[last] = nums2[n - 1]
             n, last = n - 1, last - 1
