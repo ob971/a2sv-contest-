@@ -3,7 +3,7 @@ def getLuck(num):
     return int(numS[-1]) - int(numS[0])
 
 def solve():
-    l, r = map(int, input().split())
+    l, r = map(int, input().split========())
 
     lucky = l
     t = getLuck(l)
