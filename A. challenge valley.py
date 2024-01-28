@@ -8,7 +8,7 @@ def solve():
             lem += 1
         else:
             if en >= k:
-                ans += (len - k + 1) * (len - k + 2) // 2
+                ans += (lem - k + 1) * (len - k + 2) // 2
             len = 0
     if len >= k:
         ans += (len - k + 1) * (len - k + 2) // 2
