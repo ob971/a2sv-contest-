@@ -3,6 +3,6 @@ def isPalindrome(self, s: str) -> bool:
 
 
 
-            return new==new[::-
+            return new==new[::-     
 
             
