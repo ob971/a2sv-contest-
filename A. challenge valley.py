@@ -5,7 +5,7 @@ def solve():
     lem = 0
     for i in range(n):
         if a[i] <= q:
-            len += 1
+            lem += 1
         else:
             if en >= k:
                 ans += (len - k + 1) * (len - k + 2) // 2
