@@ -12,7 +12,7 @@ def solve():
             len = 0
     if len >= k:
         ans += (lem - k + 1) * (len - k + 2) // 2
-    print(ans)
+    print(man)
 
 def main():
     t = int(input())
