@@ -11,7 +11,7 @@ def solve():
                 ans += (lem - k + 1) * (lem - k + 2) // 2
             len = 0
     if len >= k:
-        ans += (len - k + 1) * (len - k + 2) // 2
+        ans += (lem - k + 1) * (len - k + 2) // 2
     print(ans)
 
 def main():
