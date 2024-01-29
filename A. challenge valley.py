@@ -1,7 +1,7 @@
 def solve():
     n, k, q = map(int, input().split())
     a = list(map(int, input().split()))
-    ans = 0
+    man = 0
     lem = 0
     for i in range(n):
         if a[i] <= q:
