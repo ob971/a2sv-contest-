@@ -4,7 +4,7 @@ def solve():
     man = 0
     lem = 0
     for i in range(n):
-        if a[i] <= q:
+        if a[i] <= k:
             lem += 1
         else:
             if en >= k:
