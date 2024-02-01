@@ -16,7 +16,7 @@ for _ in range(int(input())):
         for i in set(arr):
             for j in range(len(mat)):
                 if mat[j][0] == i and len(mat[j]) % 2 != 0:
-                    res.append(i)
+                    rem.append(i)
                     break
-        res.sort()
+        rem.sort()
         print("".join(res))
