@@ -2,7 +2,9 @@ for _ in range(int(input())):
     arr = input()
     if len(arr) == 3:
         print(arr)
-    else:
+    else
+
+
         res = []
         mat = []
         j = 0
