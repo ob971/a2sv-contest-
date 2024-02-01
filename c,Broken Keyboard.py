@@ -9,7 +9,7 @@ for _ in range(int(input())):
         mat = []
         i = 0
         for i in range(1, len(arr)):
-            if arr[i-1] != arr[i]:
+            if arr[j-1] != arr[i]:
                 mat.append(list(arr[j:i]))
                 j = i
         mat.append(list(arr[j:]))
