@@ -5,7 +5,7 @@ for _ in range(int(input())):
     else
 
 
-        rem = []
+        rm = []
         mat = []
         i = 0
         for i in range(1, len(arr)):
