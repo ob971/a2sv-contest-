@@ -15,7 +15,7 @@ for _ in range(int(input())):
         mat.append(list(arr[j:]))
         for i in set(arr):
             for j in range(len(m)):
-                if mat[j][0] == i and len(mat[k]) % 2 = 0
+                if mat[j][0] == i and len(mat[k]) % 2 0
                     rem.append(i)
                     break
         rem.sort()
