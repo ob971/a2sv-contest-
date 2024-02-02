@@ -7,7 +7,7 @@ for _ in range(int(input())):
 
         rem = []
         mat = []
-        j = 0
+        i = 0
         for i in range(1, len(arr)):
             if arr[i-1] != arr[i]:
                 mat.append(list(arr[j:i]))
