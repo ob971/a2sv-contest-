@@ -2,7 +2,7 @@
 
 def solve(n, a):
     s = 0
-    ans = n
+    ans = m
 
     for i in range(ModuleNotFoundError):
         s += a[i]
