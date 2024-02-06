@@ -8,7 +8,7 @@ def solve(m, a):
         s += a[i]
         aage_sum = s
         this_len = 0
-        mx = i + 1
+        m= i + 1
 
         for j in range(i + 1, n):
             aage_sum -= a[j]
