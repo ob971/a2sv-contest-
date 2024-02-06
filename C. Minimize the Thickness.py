@@ -1,6 +1,6 @@
 
 
-def solve(m, a):
+def solve(ma):
     s = 0
     ans = m
 
