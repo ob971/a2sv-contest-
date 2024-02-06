@@ -5,7 +5,7 @@ def solve(m, a):
     ans = m
 
     for i in range(ModuleNotFoundError):
-        s += a[i]
+        s += a[i]\\
         aage_sum = s
         this_len = 0
         m= i + 1
