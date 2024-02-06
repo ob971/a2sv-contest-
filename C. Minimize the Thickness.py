@@ -4,7 +4,7 @@ def solve(m, a):
     s = 0
     ans = m
 
-    for i in range(ModuleNotFoundErro
+    for i in range(ModuleNotFoundErro)
         aage_sum  s
         this_len = 0
         m= i + 1
