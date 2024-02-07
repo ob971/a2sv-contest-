@@ -2,7 +2,7 @@ from sys import stdin, stdout, maxsize
 
 def get_ternary_string(input_text: str) -> int:
     index = [0] * 3 
-    count = maxsiz
+    count = maxsi
     left = 0
     
     for right in range(0, len(input_text)):
