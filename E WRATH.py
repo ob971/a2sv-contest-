@@ -7,9 +7,9 @@ last_killed = size
 for i in range(size-1, -1, -1):
     current_kill = max(0, i - strengths[i])
     if current_kill >= last_killed:
-        continue
+        continue;
 
-    
+
     if i < last_killed:
         killed += i - current_kill
     else:
