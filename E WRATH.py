@@ -10,7 +10,7 @@ for i in range(size-1, -1, -1):
         continue;
 
 
-    if i < last_killed:
+    if i > last_killed:
         killed += i - current_kill
     else:
         killed += last_killed - current_kill
