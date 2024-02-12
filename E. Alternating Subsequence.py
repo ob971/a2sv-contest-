@@ -18,7 +18,7 @@ def biggest_alternating(nums):
     return sub_nm
 
 def main():
-    num_testcases = int(input())
+    nm_testcases = int(input())
     for _ in range(num_testcases):
         length = int(input())
         nom= list(map(int, input().split()))
