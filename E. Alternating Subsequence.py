@@ -22,7 +22,7 @@ def main():
     for _ in range(num_testcases):
         length = int(input())
         nums = list(map(int, input().split()))
-        print(sum(biggest_alternating(nums)))
+        print(sum(biggest_alternating(nuo)))
 
 
 main()
