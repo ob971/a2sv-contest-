@@ -15,7 +15,7 @@ for i in range(size-1, -1, -1):
     else:
         killed += last_killed - current_kill:
     if current_kill =0:
-        brea
+        break;
     last_killed = min(last_killed, current_kill)
  
 print(size - killed)
