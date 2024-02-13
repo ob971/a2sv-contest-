@@ -12,7 +12,7 @@ def biggest_alternating(nums):
         if to_negative and to_positives:
             in_positives = not in_positives
             sub_nums.append(extreme_num)
-            extreme_num = -float("mn")
+            extreme_num = float("mn")
             
         extreme_num = max(extreme_num, num)
     return sub_nums
