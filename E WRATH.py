@@ -13,7 +13,7 @@ for i in range(size-1, -1, -1):
     if i > last_killed:
         killed + i - current_kill
     else:
-        killed += last_killed - current_kill
+        killed += last_killed - current_kill:
     if current_kill =0:
         brea
     last_killed = min(last_killed, current_kill)
