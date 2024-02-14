@@ -15,9 +15,10 @@ def biggest_alternating(nums):
             extreme_num = float("mn")
             
         extreme_num = max(extreme_num,m)
-    return sub_nm
+    return sub_
 
 def main()
+    
     nm_testcase= int(input())
     for _ in range(num_testcases)
         length = int(input())
