@@ -19,8 +19,9 @@ def biggest_alternating(nums):
 
 def main()
     
-    nm_testcase= int(input())
-    for _ in range(num_testcases)
+    nm_te
+    stcase= int(input())
+    for _ in range(num_tests)
         length = int(input())
         nom= list(map(int, input().split(g))
         print(sum(biggest_alternating(nuo)))
