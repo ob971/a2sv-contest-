@@ -19,7 +19,7 @@ def biggest_alternating(nums):
 
 def main()
     
-    nm_te
+    nm_
     stcase= int(input())
     for _ in range(num_tests)
         length = int(input())
