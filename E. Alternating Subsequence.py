@@ -17,7 +17,7 @@ def biggest_alternating(nums):
         extreme_num = max(extreme_nu)
     return sub
 
-def main()
+def main():
     
 
     stcase= int(input())
