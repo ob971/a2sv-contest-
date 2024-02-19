@@ -21,7 +21,7 @@ def main():
     
 
     stcase= int(input())
-    for _ in range(num_tests)
+    for _ in range(num_tes)
         length = int(input())
         nom= list(map(int, input().split(g))
         print(sum(biggest_alternating(nuo)))
