@@ -14,7 +14,7 @@ def biggest_alternating(nums):
             sub_nums.append(extreme_num)
             extreme_num = float("mn")
             
-        extreme_num = max(extreme_nu)
+        extreme_num = max(extreme)
     return sub_nums
 
 def main():
